@@ -83,14 +83,10 @@ body{
     gap: 50px;
 }
 
-
 .search_descrip{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 30px;
+    max-width: 450px;
 }
+
 
 .devices{
     padding-top: 50px;
@@ -111,6 +107,8 @@ body{
     gap: 30px;
     justify-content: center;
     text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .card{
@@ -118,6 +116,7 @@ body{
     flex-direction: column;
     gap: 20px;
     align-items: center;
+    
 }
 
 .card img{
@@ -206,6 +205,10 @@ p{
         gap: 20px;
     }
 
+    .devices{
+        margin-top: 50px;
+    }
+
     .sponsors{
         display: flex;
         flex-direction: column;
@@ -214,7 +217,7 @@ p{
     }
 
     .sponsors img{
-        width: 30%;
+        width: 40%;
         height: auto;
      
     }
@@ -239,6 +242,13 @@ p{
         display: flex;
         justify-content: center;
     }
+    .search_descrip{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
     .search img{
         width: 90%;
         height: auto;
